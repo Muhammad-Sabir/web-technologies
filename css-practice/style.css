@@ -1,0 +1,45 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: grey;
+	margin: 0;
+}
+
+#container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: start;
+	background-color: white;
+	width: 90vw;
+}
+
+h1 {
+	color: brown;
+	margin-left: 3vw;
+}
+
+form {
+	width: 80vw;
+}
+
+input[type="text"],
+textarea,
+select {
+	padding: 7px 5px;
+	font-size: 14px;
+	color: brown;
+	width: 250px;
+}
+
+.userinput,
+label {
+	margin: 30px;
+}
+
+.userinput > label {
+	color: #777;
+	width: 30%;
+	display: inline-block;
+}

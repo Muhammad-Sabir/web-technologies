@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+
+	<body>
+		<div id="container">
+			<h1>Student Registration Form</h1>
+
+			<form method="GET" action="register.jsp">
+				<div class="userinput">
+					<label> First Name </label>
+					<input type="text" name="firstName" value="" />
+				</div>
+
+				<div class="userinput">
+					<label> Last Name </label>
+					<input type="text" name="lastName" value="" />
+				</div>
+
+				<div class="userinput">
+					<label> Email </label>
+					<input type="text" name="email" value="" />
+				</div>
+
+				<div class="userinput">
+					<label> Gender </label>
+					<input type="radio" name="gender" value="m" /> Male
+					<input type="radio" name="gender" value="f" /> Female
+				</div>
+
+				<div class="userinput">
+					<label> Choose Subjects </label>
+					<input type="checkbox" name="subject" value="OOP" /> OOP
+					<input type="checkbox" name="subject" value="DB" checked /> Database
+					<input type="checkbox" name="subject" value="Web" /> Web Technologies
+					<input type="checkbox" name="subject" value="Android" /> Android Dev.
+				</div>
+
+				<div class="userinput">
+					<label>Comments </label>
+					<textarea name="comments" rows="7" cols="40">
+Description comes here...
+                    </textarea
+					>
+				</div>
+
+				<div class="userinput">
+					<label>City </label>
+					<select name="city">
+						<option value="1">Lahore</option>
+						<option value="2">Karachi</option>
+						<option value="3">Islamabad</option>
+					</select>
+				</div>
+
+				<div style="text-align: center">
+					<input type="reset" class="sampleBtn" />
+					<input type="submit" class="sampleBtn" />
+				</div>
+			</form>
+		</div>
+	</body>
+</html>
