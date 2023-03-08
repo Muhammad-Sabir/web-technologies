@@ -1,0 +1,63 @@
+body {
+	margin: 0;
+	padding: 0;
+	color: #42b72a;
+}
+
+main {
+	background-color: #f0f2f5;
+	height: 60vh;
+	overflow-x: hidden;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.title-description {
+	width: 45vw;
+}
+
+.title-description h1 {
+	font-size: 7vh;
+	color: #1877f2;
+}
+
+.title-description p {
+	color: #2f2a2f;
+	font-size: 3.5vh;
+}
+
+.login-section {
+	width: 25vw;
+	background-color: white;
+	height: 30vh;
+	margin-left: 30vh;
+}
+
+.login-section form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.login-section form input {
+	width: 90%;
+	margin: 2%;
+	height: 4.2vh;
+	align-items: center;
+	padding: 0.8vh;
+	border-radius: 0.5vh;
+	font-size: 1.8vh;
+	border: 1px solid #b6afaf77;
+	color: #b6afaf77;
+}
+
+.login-section form input:focus {
+	outline: none;
+	box-shadow: 0 0 10px #9ecaed;
+	animation: 800ms ease-out;
+	border-color: #9ecaed;
+	color: #9ecaed;
+}
